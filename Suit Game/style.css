@@ -1,0 +1,99 @@
+body {
+    background-color: #9C835F;
+}
+
+.tulisan {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.wrapper {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    height: 10.5rem;
+    width: 10.5rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.col {
+    display: flex;
+    gap: 70px;
+}
+
+.player {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 2.5vw;
+}
+
+.versus {
+    position: relative;
+    color: #BD0000;
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    position: absolute;
+    color: white;
+    font-size: 1vw;
+    height: 10vw;
+    width: 15vw;
+    transform: rotate(-28.87deg);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #9C835F;
+    z-index: -1;
+}
+
+h3 {
+    width: 100%;
+    font-size:2vw
+}
+
+.devnote {
+    color: black;
+    font-size: 2vh;
+}
+
+/* adjust breakpoints */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
